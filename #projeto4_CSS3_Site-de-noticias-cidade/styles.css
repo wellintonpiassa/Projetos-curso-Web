@@ -1,0 +1,230 @@
+/*-----PROPRIEDADES GLOBAIS-----*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url('images/fundo.png') repeat-x;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h3{
+	background: #294c71;
+	padding: 5px;
+	color: white;
+}
+
+h4{
+	display: inline;
+	padding: 2px;
+	color: white;
+	text-transform: uppercase;
+	background: red;
+	font-size: 13px;
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+}
+
+/*-----PROPRIEDADES DO CABEÇALHO-----*/
+#cabecalho{
+	height: 150px;
+	margin: 0 auto;
+	background: url('images/detalhe-topo.png') no-repeat top right;
+	padding-top: 25px;
+}
+
+#logo{
+	width: 152px;
+	height: 66px;
+}
+
+#cabecalho ul{
+	float: left;
+	background: #b10333;
+	margin-top: 30px;
+}
+
+#cabecalho ul li{
+	padding: 10px 16px;
+	float: left;
+	background: url('images/divisor.png') no-repeat left center;
+}
+
+#cabecalho ul a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+#cabecalho li:hover{
+	background: #69001d;
+}
+
+#cabecalho ul a:hover{
+	color: white;
+}
+
+#cabecalho li.selecionado{
+	background: #de003e;
+	cursor: text;
+}
+
+#cabecalho .selecionado a{
+	cursor: text;
+}
+
+
+/*-----CORPO DA PÁGINA-----*/
+
+#conteudo-pagina{
+	margin-top: 60px;
+	margin-bottom: 5px; 
+	background: white;
+	float: left;
+}
+
+#coluna{ /*(Container que contém os menus laterais)*/
+	float: left;
+	width: 170px;
+	padding: 5px;
+}
+
+#title, #title{ /*(Container que contém as noticias no meio da página)*/
+	width: 260px;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	background: #f9f9f9 url('images/fundo-caixa.png');
+}
+
+
+/*-----FORMATAÇÃO DOS MENUS LATERAIS (ENTREVISTAS E NEWS)-----*/
+
+.caixa{ /*(Caixa que contém os itens do menu "Entrevista")*/
+	background: #f9f9f9 url('images/fundo-caixa.png');
+	padding: 5px 0px;
+}
+
+.caixa h3{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.caixa ul{
+	background: #f9f9f9;
+	margin: 0px 5px;
+}
+
+/*(Formatação da parte dos links com nomes)*/
+.links ul li{
+	padding: 3px;
+	margin: 10px; 
+}
+
+.links ul a{
+	font-size: 14px;
+	padding: 3px 0px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.links ul a:hover{
+	background: #f9f9f9 url('images/marcador.png') no-repeat left;
+	color: #a1a1a1;
+	text-indent: 19px;
+}
+
+/*(Formatação da parte da News)*/
+.news label{
+	font-size: 15px;
+	padding: 5px;
+}
+
+.news input[type="text"]{
+	margin-left: 5px;
+	width: 155px;
+	height: 30px;
+}
+
+
+/*-----FORMATAÇÃO DOS TITLE DE CONTEÚDO DA PÁGINA-----*/
+
+.conteudo{
+	margin-top: 5px;
+	background: white;
+}
+
+.conteudo img{
+	width: 255px;
+	height: 175px;
+	margin-top: 3px;
+	margin-left: 2px;
+}
+
+.conteudo p{
+	padding-left: 3px;
+}
+
+.conteudo a, .conteudo2 a{
+	display: block;
+	padding: 3px;
+	color: black;
+	margin-bottom: 3px;
+}
+
+.conteudo a:hover, .conteudo2 a:hover{
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+.conteudo2 img{
+	width: 100px;
+	float: left;
+	margin-right: 5px;
+}
+
+.conteudo2 h4{
+	font-size: 10px;
+	background: white;
+	color: #294c71; 
+}
+
+.conteudo2{
+	cursor: pointer;
+	font-size: 14px;
+	margin-top: 5px;
+	background: white;
+}
+
+.conteudo2 p{
+	padding-bottom: 5px;
+}
+
+
+
+/*-----RODAPÉ DA PÁGINA-----*/
+#container-rodape{
+	background: #294c71;
+	padding: 20px;
+	clear: both;	
+}
+
+#rodape{
+	text-align: center;
+	width: 750px;
+	margin: 0 auto;
+	color: #FFF;
+}
