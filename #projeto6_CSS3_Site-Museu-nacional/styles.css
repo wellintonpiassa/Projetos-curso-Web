@@ -1,0 +1,180 @@
+/*-----FORMATAÇÕES GLOBAIS-----*/
+*{
+	margin: 0;
+	padding: 0;
+	font: 12px "Lucida Grande", Lucida Sans, Unicode, Arial, sans-serif;
+}
+
+body{
+	background: #f4f2ec url('images/fundo.png') repeat-x top right;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #af670a;
+}
+
+a{
+	text-decoration: none;	
+	color: #af670a;
+}
+
+
+/*-----FORMATAÇÕES DO HEADER-----*/
+header{
+	width: 80%;
+	text-transform: uppercase;
+	padding: 15px 0px;	
+}
+
+header nav ul{
+	float: right;
+	margin: 20px 0px;
+}
+
+header li{
+	list-style: none;
+	display: inline;
+}
+
+header a{
+	margin-right: 25px;
+}
+
+header a:hover{
+	border-bottom: 1px solid #af670a;
+	padding-bottom: 5px;
+}
+
+header #logo{
+	float: left;
+	width: 250px;	
+}
+
+
+/*-----FORMATAÇÕES DO CORPO DA DIREITA DA PAGINA-----*/
+#principal{
+	float: left;
+	width: 710px;
+	margin-right: 20px;
+}
+
+#video{
+	margin-left: 25px;
+	float: left;
+}
+
+#mapa{
+	margin-left: 30px;
+	float: left;
+}
+
+#exposicoes{
+	width: 310px;
+	color: #af670a;
+	margin: 15px 0px 0px 25px;
+	float: left;
+}
+
+#exposicoes ul{
+	margin-left: 25px;
+}
+
+#exposicoes ul li{
+	padding: 1px 0px;
+}
+
+#historia{
+	float: left;
+	width: 310px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+#historia p{
+	margin-bottom: 10px;
+}
+
+#historia a{
+	font-weight: bold;
+}
+
+#video h3, #mapa h3, #exposicoes h3, #historia h3{
+	margin: 15px 0px;
+}
+
+
+/*-----NAVEGAÇÃO LATERAL-----*/
+aside{
+	width: 350px;
+	float: right;
+	background: #ebe7dd;
+	margin-bottom: 20px; 
+}
+
+#visita{
+	margin-top: 10px;
+	float: left;
+	padding: 25px;
+	background-color: #cdc8b1; 	
+}
+
+#visita h3{
+	color: #86521a;
+}
+
+#data{
+	width: 120px;
+	height: 20px;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+#num_pessoas{
+	width: 40px;
+	height: 20px;
+	text-align: center;
+}
+
+#verificar{
+	background-color: #9b9271;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	border: none;
+	font-size: 1.2em;
+}
+
+#galeria{
+	float: left;
+	padding: 25px;
+}
+
+#galeria h3{
+	margin-bottom: 10px;
+}
+
+#galeria img{
+	float: left;	
+	margin: 20px 15px;
+}
+
+
+/*-----RODAPÉ-----*/
+footer{
+	background: url('images/fundo-rodape.png') no-repeat center top; 
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+footer a{
+	padding: 10px;
+	margin-bottom: 20px;
+}
